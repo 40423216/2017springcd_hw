@@ -2,8 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Search - 2017Spring 協同產品設計實習 (2017 springcd_bg8)
-</title>
+    <title>2017Spring 協同產品設計實習 (2017 springcd_bg8)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -167,7 +166,7 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-
+<link rel="canonical" href=".">
         <meta name="author" content="KMOL" />
 
     <!-- Open Graph tags -->
@@ -278,7 +277,101 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
-<div id="tipue_search_content"></div>
+            <article>
+                <h2><a href="./Week 5.html">更新 start.bat 啟動內容 ( 20170322 Week 5 )</a></h2>
+                <div class="summary"><h1>單連桿(SolveSpace轉V-rep)</h1>
+<iframe src="https://player.vimeo.com/video/211480751" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/211480751">2017-04-04_20-47-35</a> from <a href="https://vimeo.com/user47853073">李彥錞</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<h3>Fossil SCM 與 Stunnel 啟動整合</h3>
+
+<p>1. 更改 Start.bat 設定</p>
+
+<pre class="brush: python">
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 ...</pre>
+                    <a class="btn btn-default btn-xs" href="./Week 5.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./Week 4.html">各組協同主機 / 單連桿機構 ( 20170315 Week 4 )</a></h2>
+                <div class="summary"><h3>建立各組協同主機</h3>
+
+<p>2017springcd_bg8: <a href="https://mde2a2.kmol.info/cdbg8">https://mde2a2.kmol.info/cdbg8</a></p>
+
+<h3>單連桿阻立</h3>
+
+<iframe src="https://player.vimeo.com/video/210424040" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/210424040">2017-03-28_20-36-43</a> from <a href="https://vimeo.com/user47853073">李彥錞</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <a class="btn btn-default btn-xs" href="./Week 4.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./Week 3.html">20170308第三週</a></h2>
+                <div class="summary"><h1>Fourbar</h1>
+<p>利用Onshape畫出簡單的四連桿機構, 觀察該機構的運動方式</p>
+
+<iframe src="https://player.vimeo.com/video/208420652" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/208420652">2017-03-15_10-12-37</a> from <a href="https://vimeo.com/user47853073">李彥錞</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <a class="btn btn-default btn-xs" href="./Week 3.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./Week 2.html">20170301第二週</a></h2>
+                <div class="summary"><h1>Fourbar</h1>
+<p>利用Solvespace 畫出簡單的四連桿機構, 觀察該機構的運動方式</p>
+
+<iframe src="https://player.vimeo.com/video/208319717" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/208319717">2017-03-14 20-20-00</a> from <a href="https://vimeo.com/user47853073">李彥錞</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<h3>分組座位原始碼</h3>
+
+<pre class="brush: python">
+#import os
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+#讀取w2b_cadlab.txt 檔案,讓裡面的內容成為資料, 因為檔案裡有中文, 所以設定encoding 使用utf-8 的編驛碼
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+#用print 先檢查資料是否是我們需要的
+alist = adata.splitlines()
+#利用splitlines 的方法把資料隔開, 就可以得到一個特定的數列
+#print(alist[2])
+n ...</pre>
+                    <a class="btn btn-default btn-xs" href="./Week 2.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./Week 1.html">20170222第一週</a></h2>
+                <div class="summary"><h1>修改stunnel.conf的IP設定</h1>
+<p><iframe src="https://player.vimeo.com/video/208411032" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/208411032">2017-03-15_08-32-15</a> from <a href="https://vimeo.com/user47853073">李彥錞</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+                    <a class="btn btn-default btn-xs" href="./Week 1.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        <ul class="pagination">
+                <li class="prev"><a href="./index.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="./index.html">1</a></li>
+                    <li class="active"><a
+                            href="./index2.html">2</a></li>
+                <li class="next disabled"><a href="#">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -392,20 +485,5 @@ init_mathjax();
 <script src="./theme/js/respond.min.js"></script>
 
 
-    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
-    <script type="text/javascript" src="./theme/tipuesearch/tipuesearch_set.js"></script>
-    <script type="text/javascript" src="./theme/tipuesearch/tipuesearch.min.js"></script>
-    <!-- 導入 local Tipue search 所需要的 tipuesearch_content.js -->
-    <script type="text/javascript" src="./tipuesearch_content.js"></script>
-    <script>
-    $(document).ready(function() {
-      $('#tipue_search_input').tipuesearch({
-        'mode' : 'static',
-        'show': 10,
-        'minimumLength': 2,
-        'newWindow': false
-      });
-    });
-    </script>
 </body>
 </html>
