@@ -1,32 +1,4 @@
-[submodule "40423216"]
-	path = 40423216
-	url = https://github.com/40423216/2017springcd_hw
-	branch = gh-pages
-[submodule "40423225"]
-	path = 40423225
-	url = https://github.com/40423225/2017springcd_hw
-	branch = gh-pages
-[submodule "40423244"]
-	path = 40423244
-	url = https://github.com/40423244/2017springcd_hw/
-	branch = gh-pages
-[submodule "40423247"]
-	path = 40423247
-	url = https://github.com/40423247/2017springcd_hw
-	branch = gh-pages
-[submodule "40423214"]
-	path = 40423214
-	url = https://github.com/40423214/2017springcd_hw
-	branch = gh-pages
-[submodule "40423234"]
-	path = 40423234
-	url = https://github.com/40423234/2017springcd_hw
-	branch = gh-pages
-[submodule "40423242"]
-	path = 40423242
-	url = https://github.com/40423242/2017springcd_hw
-	branch = gh-pages
-[submodule "40423249"]
-	path = 40423249
-	url = https://github.com/40423249/2017springcd_hw
-	branch = gh-pages
+[submodule "subw17"]
+	path = subw17
+	url = https://github.com/scrum-1/cdbw17
+	branch = master
