@@ -279,27 +279,39 @@ init_mathjax();
 
             <article>
                 <h2><a href="./Week 17.html">20170614 第十七週</a></h2>
-                <div class="summary"><pre>
-SolveSpaceREVa
+                <div class="summary"><h3>2D 繪圖</h3>
 
-Group.h.v=00000001
-Group.type=5000
-Group.name=#references
-Group.color=ff000000
-Group.skipFirst=0
-Group.predef.swapUV=0
-Group.predef.negateU=0
-Group.predef.negateV=0
-Group.visible=1
-Group.suppress=0
-Group.relaxConstraints=0
-Group.allowRedundant=0
-Group.allDimsReference=0
-Group.remap={
+<!-- 導入 Brython 標準程式庫 -->
+
+<p><script src="../data/Brython-3.3.1/brython.js"></script>
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script></p>
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
 }
-AddGroup
+</script>
 
-Group.h.v ...</pre>
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="onegear2" width="800" height="600"></canvas>
+
+<div id="onegear_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+# 設定畫線參數 
+    def create_line(self, x1, y1, x2, y2 ...</script></!--></!--></!-->
                     <a class="btn btn-default btn-xs" href="./Week 17.html">more ...</a>
                 </div>
             </article>
