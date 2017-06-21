@@ -55,6 +55,56 @@
 <v t="leo.20170304121240.7"><vh>影片</vh></v>
 </v>
 </v>
+<v t="leo.20170621085205.1"><vh>20170503Week11</vh>
+<v t="leo.20170621085205.2"><vh>周次</vh>
+<v t="leo.20170621085205.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170621085205.4"><vh>課堂報告1</vh>
+<v t="leo.20170621085205.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170621085135.1"><vh>20170510Week12</vh>
+<v t="leo.20170621085135.2"><vh>周次</vh>
+<v t="leo.20170621085135.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170621085135.4"><vh>課堂報告1</vh>
+<v t="leo.20170621085135.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170621085113.1"><vh>20170517Week13</vh>
+<v t="leo.20170621085113.2"><vh>周次</vh>
+<v t="leo.20170621085113.3"><vh>Week</vh></v>
+</v>
+</v>
+<v t="leo.20170621085055.1"><vh>20170524Week14</vh>
+<v t="leo.20170621085055.2"><vh>周次</vh>
+<v t="leo.20170621085055.3"><vh>Week</vh></v>
+</v>
+</v>
+<v t="leo.20170621084945.1"><vh>20170531Week15</vh>
+<v t="leo.20170621084945.2"><vh>周次</vh>
+<v t="leo.20170621084945.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170621084945.4"><vh>課堂報告1</vh>
+<v t="leo.20170621084945.5"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170621084945.6"><vh>課堂報告2</vh>
+<v t="leo.20170621084945.7"><vh>上課內容2</vh></v>
+</v>
+</v>
+<v t="leo.20170621084834.1"><vh>20170607Week16</vh>
+<v t="leo.20170621084834.2"><vh>周次</vh>
+<v t="leo.20170621084834.3"><vh>Week</vh></v>
+</v>
+</v>
+<v t="leo.20170621084621.1"><vh>20170614Week17</vh>
+<v t="leo.20170621084621.2"><vh>周次</vh>
+<v t="leo.20170621084621.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170621084621.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170621084621.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="leo.20170304121220.1" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20170304121220.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20170304121220.3"><vh>LaTeX 格式方程式</vh></v>
@@ -286,6 +336,227 @@ make.start()
 5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
 
 6.利用協同完成Solvespace4連桿機構組立</t>
+<t tx="leo.20170621084621.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621084621.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084621.3"># Week 17
+
+###完成 7 項任務
+</t>
+<t tx="leo.20170621084621.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084621.5">&lt;p 以下為協同產品設計實習 2017 Spring 期末考前一週起的實習查驗題目. 完成後, 請各組員依照指示完成期末自評簡報.
+
+以下各題請各組員在任務執行時, 利用 ShareX 拍攝操作影片, 影片名稱依題序設為"學號-2017springcd-final-1.mp4 ~ 學號-2017springcd-final-7.mp4", 並在指定時間內分別上傳到以學號建立帳號的 Youtube 與 Vimeo.
+
+各組員倉儲中的 Github 檔案推送
+
+各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中
+
+各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中
+
+各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件
+
+各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬
+
+各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務
+
+各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報. &lt;/p&gt;
+
+</t>
+<t tx="leo.20170621084834.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621084834.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084834.3"># Week 16
+
+###齒輪模擬
+</t>
+<t tx="leo.20170621084945.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621084945.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084945.3"># Week 15
+
+###協同練習
+</t>
+<t tx="leo.20170621084945.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084945.5">&lt;p align="left"&gt;
+1. 以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 完成後, 請在正齒輪中央寫上自己的學號, 並建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號. &lt;/p&gt;
+</t>
+<t tx="leo.20170621084945.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621084945.7">&lt;p align="left"&gt;
+3. 請各學員在各自 github 倉儲中的 data/py 目錄中, 編寫一個可以採圓心座標, 節圓半徑, 齒數, 壓力角與定位角度作為輸入的齒輪程式函式, 交由組長從各組員的 submodule 設定中呼叫導入, 以便在各分組的網頁中完成一個畫出所有組員協同繪圖的齒輪減速組圖, 且各齒輪正中心必須寫上組員學號, 各組按照學號大小排序, 分別由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列, 直至所有組員均各提供一個協同囓合用的齒輪為止.&lt;/p&gt;
+
+&lt;p align="left"&gt;
+4. 請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+5. 各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習". &lt;/p&gt;</t>
+<t tx="leo.20170621085055.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621085055.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085055.3"># Week 14
+
+###架設伺服器主機
+</t>
+<t tx="leo.20170621085113.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621085113.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085113.3"># Week 13
+
+###行走機構
+</t>
+<t tx="leo.20170621085135.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621085135.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085135.3"># Week 12
+
+###繪製漸開線齒輪</t>
+<t tx="leo.20170621085135.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085135.5">&lt;p align="left"&gt;
+1. FeatureScript 正齒輪 &lt;/p&gt;</t>
+<t tx="leo.20170621085205.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621085205.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085205.3"># Week 11
+
+###2D 正齒輪繪圖
+</t>
+<t tx="leo.20170621085205.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621085205.5">&lt;p align="left"&gt;
+1. 以 Brython 繪製單一正齒輪廓 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 導入 Cango 程式庫繪製正齒輪廓 &lt;/p&gt;
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -531,7 +802,7 @@ make.start()</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [2017 springcd_bg8](https://40423216.github.io/2017springcd_bg8/blog/)
+Created by [40423226](https://40423216.github.io/2017springcd_hw/blog/)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
