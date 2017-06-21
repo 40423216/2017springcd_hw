@@ -677,7 +677,9 @@ ctx.fillText("40423216",x_g2-30,y_g2)
 ctx.stroke()
 &lt;/script&gt;</summary><category term="brython"></category><category term="w15"></category></entry><entry><title>20170524 第十四週</title><link href="./Week%2014.html" rel="alternate"></link><published>2017-05-24T11:00:00+08:00</published><updated>2017-05-24T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-24:./Week 14.html</id><summary type="html">&lt;h3&gt;純 IPv6 網路的主機&lt;/h3&gt;
 
-</summary><category term="brython"></category><category term="w14"></category></entry><entry><title>20170517 第十三週</title><link href="./Week%2013.html" rel="alternate"></link><published>2017-05-17T11:00:00+08:00</published><updated>2017-05-17T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-17:./Week 13.html</id><summary type="html">&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;</summary><category term="brython"></category><category term="w13"></category></entry><entry><title>20170510 第十二週</title><link href="./Week%2012.html" rel="alternate"></link><published>2017-05-10T11:00:00+08:00</published><updated>2017-05-10T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-10:./Week 12.html</id><summary type="html">&lt;h3&gt;FeatureScript 正齒輪&lt;/h3&gt;
+</summary><category term="brython"></category><category term="w14"></category></entry><entry><title>20170517 第十三週</title><link href="./Week%2013.html" rel="alternate"></link><published>2017-05-17T11:00:00+08:00</published><updated>2017-05-17T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-17:./Week 13.html</id><summary type="html">&lt;h3&gt;繪製八連桿行走機構&lt;/h3&gt;
+
+</summary><category term="brython"></category><category term="w13"></category></entry><entry><title>20170510 第十二週</title><link href="./Week%2012.html" rel="alternate"></link><published>2017-05-10T11:00:00+08:00</published><updated>2017-05-10T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-10:./Week 12.html</id><summary type="html">&lt;h3&gt;FeatureScript 正齒輪&lt;/h3&gt;
 
 
 
@@ -929,10 +931,8 @@ export const spur = defineFeature(function(context is Context, id is Id, definit
     }
 skSolve(gearSketch);
 });
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/pre&gt;&lt;/p&gt;</summary><category term="brython"></category><category term="w12"></category></entry><entry><title>20170503 第十一週</title><link href="./Week%2011.html" rel="alternate"></link><published>2017-05-03T11:00:00+08:00</published><updated>2017-05-03T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-03:./Week 11.html</id><summary type="html">&lt;h3&gt;以 Brython 繪製單一正齒輪廓&lt;/h3&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;</summary><category term="brython"></category><category term="w12"></category></entry><entry><title>20170503 第十一週</title><link href="./Week%2011.html" rel="alternate"></link><published>2017-05-03T11:00:00+08:00</published><updated>2017-05-03T11:00:00+08:00</updated><author><name>40423216</name></author><id>tag:,2017-05-03:./Week 11.html</id><summary type="html">&lt;h3&gt;以 Brython 繪製單一正齒輪廓&lt;/h3&gt;
 
 
 
@@ -1270,14 +1270,17 @@ ctx.closePath()
 &lt;p&gt;2. 會發現多一個 bg8.fossil 的檔案&lt;/p&gt;
 
 &lt;p&gt;3. 新建一個 wd 的目錄, 並且進去 wd 目錄&lt;/p&gt;
+
 &lt;pre&gt;
 mkdir wd
 cd wd&lt;/pre&gt;
 
 &lt;p&gt;4. 再新建一個 w7 的目錄, 並且進去 w7 目錄&lt;/p&gt;
+
 &lt;pre&gt;
 mkdir w7
 cd w7&lt;/pre&gt;
+
 &lt;p&gt;&lt;img src="../data/cd w7.png" width="800" /&gt;
 
 &lt;p&gt;5. 用相對位置打開 bg8.fossil &lt;/p&gt;
