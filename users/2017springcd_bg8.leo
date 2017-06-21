@@ -137,6 +137,7 @@
 <v t="leo.20170607142207.1"><vh>@edit 20170517.md</vh></v>
 <v t="leo.20170607142213.1"><vh>@edit 20170524.md</vh></v>
 <v t="leo.20170607142219.1"><vh>@edit 20170531.md</vh></v>
+<v t="leo.20170621102545.1"><vh>@edit 20170607.md</vh></v>
 <v t="leo.20170614105253.1"><vh>@edit 20170614.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
@@ -805,7 +806,7 @@ make.start()</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40423226](https://40423216.github.io/2017springcd_hw/blog/)
+Created by [40423216](https://40423216.github.io/2017springcd_hw/blog/)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
